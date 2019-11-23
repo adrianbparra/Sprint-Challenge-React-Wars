@@ -10,13 +10,16 @@ function CharacterCards(props) {
 
 
     return (
-        <Col sm="12" md="6" lg="3">
+        <Col sm="12" md="4" lg="3">
         <Card  color="secondary" className="text-white">
             <CardHeader>{props.characterData.name}</CardHeader>
             <CardBody>
                 <CardSubtitle>Year Born: {props.characterData.birth_year}</CardSubtitle>
-                <CardSubtitle>Mass: {props.characterData.mass}</CardSubtitle>
-                <CardText>Eye Color: {props.characterData.eye_color}</CardText>
+                <CardSubtitle>Gender: {props.characterData.gender}</CardSubtitle>
+                <CardSubtitle>Mass: {props.characterData.mass}kg</CardSubtitle>
+                <CardSubtitle>Heigth: {props.characterData.height}cm</CardSubtitle>
+                <CardSubtitle>Eye Color: {props.characterData.eye_color}</CardSubtitle>
+                <CardSubtitle>Skin Color: {props.characterData.skin_color}</CardSubtitle>
             </CardBody>
         </Card>
         </Col>
