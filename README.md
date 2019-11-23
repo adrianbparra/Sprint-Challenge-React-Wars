@@ -26,13 +26,23 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+It is a UI library that is used to create complex, rich user interfaces. I can build a component to display different data but with the same format. For example a card to display different user content, showing images and text.
+
 - [ ] What does it mean to _think_ in react?
+
+It is able to build small reusable pieces of UI that can make large scale applications.
 
 - [ ] Describe state.
 
+Data saved within components that allows app changes and updates.
+
 - [ ] Describe props.
 
+The information that travels from top to bottom between components.
+
 - [ ] What are side effects, and how do you sync effects in a React component to state or prop changes?
+
+Anything that affects something outside the scope of a function being executed. By passing in a dependency array as the second argument in the effect hook.
 
 ## Project Set Up
 
