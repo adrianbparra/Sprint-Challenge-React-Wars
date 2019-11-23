@@ -1,8 +1,5 @@
 import React from 'react';
 import './App.css';
-import CharacterCards from "./components/CharacterComponents/CharacterCards.js";
-
-//importing for testing
 import Characters from "./components/CharacterComponents/Characters.js";
 
 
