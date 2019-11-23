@@ -1,5 +1,10 @@
 import React from 'react';
 import './App.css';
+import CharacterCards from "./components/CharacterComponents/CharacterCards.js";
+
+//importing for testing
+import Characters from "./components/CharacterComponents/Characters.js";
+
 
 const App = () => {
   // Try to think through what state you'll need for this app before starting. Then build out
@@ -12,6 +17,7 @@ const App = () => {
   return (
     <div className="App">
       <h1 className="Header">React Wars</h1>
+      <Characters />
     </div>
   );
 }
